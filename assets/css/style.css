@@ -16,3 +16,24 @@ li::after {
  counter-increment: section;
  content: counter(section);
 }
+
+/*Mobile*/
+@media only screen and (min-width: 480px) {
+  .list {
+    width: 25%
+  }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 768px) {
+  .list {
+    width: 38%
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 992px) {
+  .list {
+    width: 50%
+  }
+}
