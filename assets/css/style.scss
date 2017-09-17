@@ -1,0 +1,12 @@
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: Number:;
+    counter-increment: Number:;
+
+    &__item {
+        display: block;
+        background-color: lightblue;
+        margin-bottom: 5px;
+    }
