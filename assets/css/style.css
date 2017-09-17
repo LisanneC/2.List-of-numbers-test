@@ -6,3 +6,12 @@
     display: block;
     background-color: lightblue;
     margin-bottom: 5px; }
+
+body {
+ counter-reset: section;
+}
+
+li::after {
+ counter-increment: section;
+ content: counter(section);
+}
